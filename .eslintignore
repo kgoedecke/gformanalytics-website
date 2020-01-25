@@ -1,0 +1,5 @@
+.coverage
+.next
+bundles
+out
+node_modules

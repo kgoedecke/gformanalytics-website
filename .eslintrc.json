@@ -1,0 +1,27 @@
+{
+  "extends": "eslint-config-airbnb",
+  "globals": {
+    "document": false,
+    "fetch": false,
+    "window": false
+  },
+  "parser": "babel-eslint",
+  "rules": {
+      "array-bracket-newline": [
+          "error",
+          "consistent"
+      ],
+      "react/jsx-filename-extension": [
+        "error",
+        {
+          "extensions": [".js", ".jsx"]
+        }
+      ],
+      "react/react-in-jsx-scope": [
+        "off"
+      ],
+      "react/prop-types": [
+        "off"
+      ]
+  }
+}

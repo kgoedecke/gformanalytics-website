@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>plus-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-664.000000, -248.000000)" fill="#FFFFFF">
+            <g id="plus-icon" transform="translate(664.000000, 248.000000)">
+                <circle id="Oval" opacity="0.400204613" cx="35.5" cy="35.5" r="35.5"></circle>
+                <polygon id="+" fill-rule="nonzero" points="38.953125 47.84375 38.953125 38.140625 47.390625 38.140625 47.390625 32.234375 38.953125 32.234375 38.953125 23 32.484375 23 32.484375 32.234375 24 32.234375 24 38.140625 32.484375 38.140625 32.484375 47.84375"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
