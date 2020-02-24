@@ -155,7 +155,7 @@ function Form() {
             src="./secure-icon.svg"
             alt="Secure"
           />
-        We don&apos;t story any data whatsoever.
+        We don&apos;t store any data whatsoever.
         </span>
         { formLink && (
         <div className={css({ width: '100%', padding: '0 2rem' })}>
