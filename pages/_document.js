@@ -93,7 +93,6 @@ export default class MyDocument extends Document {
           <meta name="page-type" content="Software" />
           <meta httpEquiv="content-language" content="en-us" />
           <meta name="robots" content="index, follow" />
-          <title>GFormAnalytics - Add Analytics to any Google Form with 1 click!</title>
           {styleNodes}
         </Head>
         <body>

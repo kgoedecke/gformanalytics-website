@@ -1,4 +1,5 @@
 import App from 'next/app';
+import Head from 'next/head';
 import React from 'react';
 import FelaProvider from '../FelaProvider';
 
@@ -17,9 +18,14 @@ export default class MyApp extends App {
     const { Component, pageProps, renderer } = this.props;
     return (
       <FelaProvider renderer={renderer}>
-        <Component
-          {...pageProps } //eslint-disable-line
-        />
+        <>
+          <Head>
+            <title>GFormAnalytics - Add Google Analytics to any Google Form with 1 click!</title>
+          </Head>
+          <Component
+            {...pageProps } //eslint-disable-line
+          />
+        </>
       </FelaProvider>
     );
   }
