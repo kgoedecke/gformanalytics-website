@@ -21,7 +21,7 @@ function handleSubmit(event, cb, error) {
       method: 'post',
       body: formData,
     });
-    cb(`https://gformanalytics.com/form.php&ga_id=${gaId.pop()}&form_id=${formId.pop()}`);
+    cb(`https://gformanalytics.com/form.php?ga_id=${gaId.pop()}&form_id=${formId.pop()}`);
   }
 }
 
