@@ -7,7 +7,7 @@ function handleSubmit(event, cb, error) {
   const formsLink = event.target[0].value;
   const gaSnippet = event.target[1].value;
   const email = event.target[2].value;
-  const formId = formsLink && formsLink.match(/\/forms\/d\/e\/(.*?)\//);
+  const formId = formsLink && formsLink.match(/\/forms\/d\/(.*?)\//);
   const gaId = gaSnippet && gaSnippet.match(/id=(.*?)"/);
   if (!formId || !gaId) {
     error('Your Google Form Link or Analytics Snippet is invalid.');
